@@ -57,6 +57,20 @@ Refer to the Swagger documentation for detailed information on each endpoint.
 Contributing
 Feel free to contribute to this project by submitting issues or pull requests. Your feedback and contributions are highly appreciated.
 
+Docker:
+To launch the app using docker, run these commands
+
+git clone https://github.com/Ismayil44/Dockerized-CRUD-App.git
+cd Dockerized-CRUD-App
+docker-compose up
+
+
+To down the containers:
+
+Docker-compose down
+
+
+
 
 
 
