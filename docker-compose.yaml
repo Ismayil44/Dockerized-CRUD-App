@@ -18,7 +18,11 @@ services:
       retries: 10
 
   backend:
+<<<<<<< HEAD
     image: ismayil44/dockerized-crud-app:1.0
+=======
+    build: .
+>>>>>>> 13043a29e2a11d81277ca8db3fa3965bc043e366
     container_name: demo_backend
     depends_on:
       mysql:
